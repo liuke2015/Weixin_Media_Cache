@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <link rel="stylesheet" href="css/weui.css">
+</head>
+<body>
+    <p>
+        <a href="#" class="updateBtn weui_btn weui_btn_mini weui_btn_primary" >文件更新</a>
+    </p>
+    <!-- 音频 / -->
+    <div>
+        <audio controls="controls"  class="mp3"  data-name="mp108" src="http://so1.111ttt.com:8282/2016/5/02m/25/195251254501.m4a?tflag=1463472955&pin=44ad3cc0c768a2ecb846d8749145cbd3&ip=108.61.161.139#.mp3"></audio>
+        <a href="#" class="downloadBtn weui_btn weui_btn_mini weui_btn_primary" data-name="mp108">点击下载</a>
+        <a href="#" class="removeBtn weui_btn weui_btn_mini weui_btn_warn" data-name="mp108">清除缓存</a>
+    </div>
+    <!-- 音频 / -->
+    <div>
+        <audio controls="controls"   class="mp3"  data-name="mp109" src="http://so1.111ttt.com:8282/2016/5/02m/25/195251254501.m4a?tflag=1463472955&pin=44ad3cc0c768a2ecb846d8749145cbd3&ip=108.61.161.139#.mp3"></audio>
+        <a href="#" class="downloadBtn weui_btn weui_btn_mini weui_btn_primary" data-name="mp109">点击下载</a>
+        <a href="#" class="removeBtn weui_btn weui_btn_mini weui_btn_warn" data-name="mp109">清除缓存</a>
+    </div>
+    <!-- 音频 / -->
+    <div>
+        <audio controls="controls"  class="mp3"  data-name="mp110" src="http://so1.111ttt.com:8282/2016/5/02m/25/195251254501.m4a?tflag=1463472955&pin=44ad3cc0c768a2ecb846d8749145cbd3&ip=108.61.161.139#.mp3"></audio>
+        <a href="#" class="downloadBtn weui_btn weui_btn_mini weui_btn_primary" data-name="mp110">点击下载</a>
+        <a href="#" class="removeBtn weui_btn weui_btn_mini weui_btn_warn" data-name="mp110">清除缓存</a>
+    </div>
+    <!-- 加载中/ -->
+    <div id="loadingToast" class="weui_loading_toast" style="display: none;">
+        <div class="weui_mask_transparent"></div>
+        <div class="weui_toast">
+            <div class="weui_loading">
+                <div class="weui_loading_leaf weui_loading_leaf_0"></div>
+                <div class="weui_loading_leaf weui_loading_leaf_1"></div>
+                <div class="weui_loading_leaf weui_loading_leaf_2"></div>
+                <div class="weui_loading_leaf weui_loading_leaf_3"></div>
+                <div class="weui_loading_leaf weui_loading_leaf_4"></div>
+                <div class="weui_loading_leaf weui_loading_leaf_5"></div>
+                <div class="weui_loading_leaf weui_loading_leaf_6"></div>
+                <div class="weui_loading_leaf weui_loading_leaf_7"></div>
+                <div class="weui_loading_leaf weui_loading_leaf_8"></div>
+                <div class="weui_loading_leaf weui_loading_leaf_9"></div>
+                <div class="weui_loading_leaf weui_loading_leaf_10"></div>
+                <div class="weui_loading_leaf weui_loading_leaf_11"></div>
+            </div>
+            <p class="weui_toast_content">缓存中...</p>
+        </div>
+    </div>
+    <!-- toast / -->
+    <div id="toast" style="display: none;">
+        <div class="weui_mask_transparent"></div>
+        <div class="weui_toast">
+            <i class="weui_icon_toast"></i>
+            <p class="weui_toast_content">缓存成功</p>
+        </div>
+    </div>
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <script src="js/offLine.js"></script>
+</body>
+</html>
